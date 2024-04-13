@@ -1,0 +1,45 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+}
+
+.navbar_left {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    width: 40px; /* Logo boyutu */
+    height: auto;
+    margin-right: 10px; /* Logo ile site adı arasındaki boşluk */
+}
+
+.site_name {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.navbar_right {
+    display: flex;
+    align-items: center;
+}
+
+.details, .login, .logout {
+    margin-left: 10px; /* Simge ve metinler arasındaki boşluk */
+    cursor: pointer; /* Mouse imlecini göster */
+}
+
+.detail_icon, .login_icon, .logout_icon {
+    font-size: 20px; /* Simge boyutu */
+    margin-right: 5px; /* Simge ile metin arasındaki boşluk */
+    color: white;
+    text-decoration: none;
+}
+.link{
+    color: white;
+    text-decoration: none;
+}

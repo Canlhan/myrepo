@@ -1,0 +1,59 @@
+/* Block.css */
+.block {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    border: 1px solid #ccc;
+    width: 60%;
+    margin: 0;
+    margin-bottom: 5px;
+    padding: 0;
+
+}
+
+.block_left {
+    display: flex;
+    align-items: center;
+}
+
+.block_left h2 {
+    margin-right: 10px;
+}
+
+.offer_button {
+    background-color: transparent;
+    border: 1px solid #007bff;
+    color: #007bff;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.offer_button:hover {
+    background-color: #ff0000; /* Mouse ile üstüne gelince kırmızı olacak */
+    color: #fff;
+}
+
+.detail_button {
+    margin-top: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.block_right {
+    display: flex;
+    flex-direction: row;
+    text-align: right;
+    align-items: center;
+}
+.buttons{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 0 0 0; /* Üst, sağ, alt, sol sırasıyla */
+    margin-left: 20px;
+    padding: 5px;
+}

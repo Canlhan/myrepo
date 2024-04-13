@@ -1,0 +1,3 @@
+interface Vendor extends User {
+    
+  }
